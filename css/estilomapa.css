@@ -1,0 +1,48 @@
+
+
+/* body {
+  background: #1b1a1a;
+} */
+
+.mapadiv {
+  width: 100%;
+  margin: auto;
+}
+        
+.mapadiv path {
+  fill: #7c7c7c;
+  stroke: #ffffff;
+  stroke-width: 0.1px;
+  transition: transform 0.3s, fill 0.3s; 
+           
+  }
+
+  .path-hovered {
+    fill: #397d14 !important; 
+    transform: scale(1.008); 
+  }
+
+/* .mapadiv {
+    width: 70%;
+    margin: auto;
+  }
+        
+.mapadiv path {
+    fill: #b1b1b1;
+    stroke: #ec1919;
+    stroke-width: 0.1px;
+    transition: fill 0.3s; 
+  }
+        
+.mapadiv path:hover {
+    fill: #7e0909; 
+  } */
+
+  /* body {
+  background-image: url('../img/fondoB.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  color: #fff; 
+  } */
+
+ 

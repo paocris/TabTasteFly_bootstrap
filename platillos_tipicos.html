@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TabTasteFly</title>
+  <!-- ccs del mapa tabasco -->
+  <link href="css/estilomapa.css" rel="stylesheet">
+  <!-- CSS Bootstrap -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <!-- FAncybox, para galeria de imagenes -->
+  <link rel="stylesheet" href="./img/fancybox-master/dist/jquery.fancybox.min.css" />
+  <script src="./img/fancybox-master/dist/jquery.fancybox.min.js"></script>
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+
+  <!-- CDN Font awesome -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" /> -->
+  <!-- CSS Main -->
+  <link rel="stylesheet" href="./css/main.css" />
+  <script src="js/tema.js" defer></script>
+</head>
+
+<body>
+  <!-- header -->
+  <header class="header">
+    <div class="container vh-40 ">
+      <!-- navbar-->
+      <nav class="row text-white justify-content-center align-items-center text-uppercase pt-4 flex-wrap text-center">
+        <div class="col-md-10 col-lg-6 d-flex justify-content-center align-items-center navsize">
+          <a href="index.html" class="text-reset">Gastronomia</a>
+          <a href="municipios.html" class="text-reset">Municipios</a>
+          <!-- logo-->
+          <a href="index.html" class="logo-link"><img src="./img/logo.png" alt="LOGO" class="img-logo text-reset"></a>
+          <a href="eventos.html" class="text-reset">Eventos</a>
+          <a href="alojamiento.html" class="text-reset">Alojamiento</a>
+        </div>
+      </nav>
+
+      <!-- Descripcionnn-->
+      <div class="row h-100 align-items-center">
+        <div class="col-md-10 col-lg-6 text-white">
+          <h1 class="capitalize resaltado2"><span class="text-white h1">GASTRONOMIA</span> </h1>
+          <!-- <p class="resaltado h2">PEJELAGARTO ASADO</p> -->
+          <!-- <a href="#" class="text-reset btn btn-warning">Explorar</a> -->
+        </div>
+
+      </div>
+    </div>
+
+    <img src="./img/cuts/cut-header.svg" alt="">
+  </header>
+
+  <!-- Loader de la página-->
+  <div class="spinner-wrapper">
+    <div class="spinner-border text-primary" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+    <div class="spinner-border text-success" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+    <div class="spinner-border text-danger" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+    <div class="spinner-border text-warning" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+    <div class="spinner-border text-info" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+<br>
+  <!-- DESTACADOS  GASTRONOMIA-->
+  <section id="gastronomia" class="container mb-5">
+    <div class="row">
+
+      <!-- texto detcastado-->
+      <div class="col-12 text-left">
+        <h2 class=" text-warning text-uppercase h3">pejelagarto asado</h2>
+
+        <hr>
+        <!-- <h3 class="text-capitalize"> aqui va algo mas</h3> -->
+        <p>Está hecho con la especie de pescado llamada "pejelagarto" que también se conoce como "alligator gar" en
+          inglés. El pescado se pesca
+          en los ríos y lagunas de Tabasco, y es considerado un manjar en la gastronomía local.
+        </p>
+        <p> El pescado se limpia y prepara quitándole las escamas y las espinas, y luego
+          se marina en una mezcla de jugo de lima, ajo y especias como comino y
+          pimienta negra. Después de marinar, el pescado se cocina en una parrilla o
+          asado (fuego abierto), lo que le da un sabor ahumado y sabroso. El pescado a
+          menudo se cocina entero y se sirve con una guamición de arroz y frijoles, y
+          una salsa picante hecha con tomates, cebollas y chiles.
+        </p>
+        <p> El pejelagarto asado es un plato que tradicionalmente se sirve en ocasiones
+          especiales como bodas, reuniones familiares y celebraciones religiosas.
+          También es un plato popular en los restaurantes locales y en los vendedores
+          ambulantes.</p>
+      </div>
+
+      <!-- cards de fotos-->
+      <!-- card 1 -->
+      <article class="col-4">
+        <div class="card">
+          <a href="./img/imagenes_gastronomia/pejelagarto.png" data-fancybox="gallery" class="fancybox">
+            <img src="./img/imagenes_gastronomia/pejelagarto.png" alt="Pejelagarto Asado" class="card-img-simple">
+          </a>
+
+        </div>
+      </article>
+      <!-- card 1 -->
+      <article class="col-4 ">
+        <div class="card">
+          <a href="./img/imagenes_gastronomia/pejelagarto2.png" data-fancybox="gallery" class="fancybox">
+            <img src="./img/imagenes_gastronomia/pejelagarto2.png" alt="Pejelagarto" class="card-img-simple">
+          </a>
+
+        </div>
+      </article>
+      <!-- card 2 -->
+      <article class="col-4">
+        <div class="card">
+          <a href="./img/imagenes_gastronomia/pejelagarto3.png" data-fancybox="gallery" class="fancybox">
+            <img src="./img/imagenes_gastronomia/pejelagarto3.png" alt="Pejelagarto pero varios" class="card-img-simple">
+          </a>
+        </div>
+      </article>
+
+
+
+    </div>
+  </section>
+
+  <!-- PORQUE VISITAR-->
+  <section class="container mb-5">
+    <div class="row">
+
+      <!-- texto detcastado-->
+      <div class="col-12 text-center">
+        <h2 class="text-warning text-uppercase h3">Descubre la riqueza gastronómica de Tabasco</h2>
+        <h3 class="h1">Ven y prueba nuestros platillos típicos</h3>
+        <p>¡Déjate sorprender por la variedad de sabores y aromas que tenemos para ofrecerte!</p>
+      </div>
+  </section>
+
+  <!-- DESTACADOS  GASTRONOMIA-->
+  <section id="gastronomia" class="container mb-5">
+    <div class="row">
+
+      <!-- texto detcastado-->
+      <div class="col-12 text-left">
+        <h2 class=" text-warning text-uppercase h3">Restaurantes que puedes visitar</h2>
+
+        <hr>
+        <!-- <h3 class="text-capitalize"> aqui va algo mas</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae iure quia repellendus laboriosam ad natus
+          eius incidunt nisi similique quam voluptatibus aut aliquid eos, at rerum error doloribus nobis dolore sapiente
+          minus itaque et tempora exercitationem dolorum! Ducimus, illum laboriosam?</p> -->
+      </div>
+
+      <!-- cards de resturantes-->
+      <!-- card 1 -->
+      <div class="scroll">
+        <article class="col-4 card-effect2">
+          <div class="card">
+            <img src="./img/imagenes_restaurantes/cevicheria_tabasco.png" alt="La cevicheria" class="card-img card-img-filter">
+            <div class="card-img-overlay text-white d-flex flex-column justify-content-end text-center">
+              <h4>La CevicherÍa Tabasco</h4>
+              <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p> -->
+            </div>
+          </div>
+        </article>
+        <!-- card 1 -->
+        <article class="col-4 card-effect2">
+          <div class="card">
+            <img src="./img/imagenes_restaurantes/ElPejeChoco.png" alt="El pejechoco" class="card-img card-img-filter">
+            <div class="card-img-overlay text-white d-flex flex-column justify-content-end text-center">
+              <h4>El Peje Choco</h4>
+
+            </div>
+          </div>
+        </article>
+        <!-- card 2 -->
+        <article class="col-4 card-effect2">
+          <div class="card">
+            <img src="./img/imagenes_restaurantes/restaurantelupit.png" alt="Mariscos la Lupita" class="card-img card-img-filter">
+            <div class="card-img-overlay text-white d-flex flex-column justify-content-end text-center">
+              <h4>Mariscos la Lupita</h4>
+
+            </div>
+          </div>
+        </article>
+        <!-- card 3 -->
+        <article class="col-4 card-effect2">
+          <div class="card">
+            <img src="./img/imagenes_restaurantes/eledens.png" alt="El Eden" class="card-img card-img-filter">
+            <div class="card-img-overlay text-white d-flex flex-column justify-content-end text-center">
+              <h4>El Eden</h4>
+            </div>
+          </div>
+        </article>
+
+        <!-- card 4 -->
+
+        <article class="col-4 card-effect2">
+          <div class="card">
+            <img src="./img/imagenes_restaurantes/el-reyna.png" alt="Reina Mariscos Villahermosa" class="card-img card-img-filter">
+            <div class="card-img-overlay text-white d-flex flex-column justify-content-end text-center">
+              <h4>El Reina Mariscos Villahermosa </h4>
+            </div>
+          </div>
+        </article>
+        <!-- card 5 -->
+
+        <article class="col-4 card-effect2">
+          <div class="card">
+            <img src="./img/imagenes_restaurantes/teapaneco.png" alt="El Teapaneco" class="card-img card-img-filter">
+            <div class="card-img-overlay text-white d-flex flex-column justify-content-end text-center">
+              <h4>El Teapaneco </h4>
+            </div>
+          </div>
+        </article>
+
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- footer -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container">
+      <nav class="row">
+
+        <!-- REDES SOCIALES -->
+        <ul class="list-unstyled text-center text-white>
+          <li class=" justify-content-center">
+          <img src="./img/logotab.png" alt="" class="img-logo mr-2">
+          </li>
+          <li class="font-weight-bold text-uppercase"><a href="quienes_somos.html">Quienes somos</a></li>
+
+          <li class="d-flex justify-content-center">
+
+            <!-- fb -->
+            <a href="#" class="text-reset pe-3">
+              <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 320 512"
+                style="fill: #FFFFFF;"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+              </svg>
+              <!-- X -->
+              <a href="#" class="text-reset pe-3">
+                <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 512 512"
+                  style="fill: #FFFFFF;"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
+                </svg>
+              </a>
+              <!-- Instagram -->
+              <a href="#" class="text-reset pe-3">
+                <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512"
+                  style="fill: #FFFFFF;"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                </svg>
+              </a>
+
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Jquery -->
+  <script src="./js/jquery-3.5.0.min.js"></script>
+  <!-- script del mapa -->
+  <script>
+    function hoverPath(path) {
+      path.classList.add('path-hovered');
+    }
+
+    function unhoverPath(path) {
+      path.classList.remove('path-hovered');
+    }
+  </script>
+  <!-- FAncybox, para galeria de imagenes -->
+  <link rel="stylesheet" href="./img/fancybox-master/dist/jquery.fancybox.min.css" />
+  <script src="./img/fancybox-master/dist/jquery.fancybox.min.js"></script>
+  <!-- Popper -->
+  <script src="./js/popper.min.js"></script>
+  <!-- JS Bootstrap -->
+  <script src="./js/bootstrap.min.js"></script>
+  <!-- script de inicialización de Fancybox -->
+  <script>
+    $(document).ready(function () {
+      $("[data-fancybox]").fancybox({
+        type: 'image',
+        selector: '.fancybox',
+        // otras opciones de Fancybox
+      });
+    });
+  </script>
+
+
+
+</body>
+
+</html>
